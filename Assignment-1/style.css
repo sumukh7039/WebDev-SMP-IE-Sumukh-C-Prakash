@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    size: 1000px;
+}
+*{
+    zoom: 98%;
+    }
+.nav{
+    list-style-type: none;
+    background-color: #B3361B;
+    overflow: auto;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0;
+    font-size: large;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    float: left;
+ 
+}
+.nav li a:hover{
+    background-color: #8f2b15 ;
+}
+.logo{
+    font-family: Dancing Script;
+    font-size: larger;
+}
+.clr{
+    clear: both;
+}
+.link_black {
+    color: black;
+    text-decoration: none;
+}
+.headlines{
+    font-size:x-large;
+    width: 22%;
+    text-align: center;
+    align-items: center;
+    border: #000 solid;
+    background: #fffffa;
+    border-radius: 8px;
+    float: left ;
+    margin-left: 5px;
+}
+.headlines2{
+    font-size:x-large;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    border: #000 solid;
+    background: #fffffa;
+    border-radius: 8px;
+    float: right ;
+    margin-left: 5px;
+}
+.headlines3{
+    font-size:x-large;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    border: #000 solid;
+    background: #fffffa;
+    border-radius: 8px;
+    float: right ;
+    margin-left: 5px;
+}
+.headlines4{
+    font-size:x-large;
+    width: 25%;
+    height: 33%;
+    text-align: center;
+    align-items: center;
+    border: #000 solid;
+    background: #fffffa;
+    border-radius: 8px;
+    float: right ;
+    margin-left: 5px;
+}
+.news{
+    font-size:medium;
+}
+.main h1{
+    width: 600px;
+    font-size:3em;
+}
+.main{
+    border: #000 solid;
+    background: #E1F0F7;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+
+}
+.main p{
+    width: 699px;
+    height: 550px;
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    
+}
+.Content{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Roboto;
+}
+.read a{
+    color: blue;
+    text-decoration: underline;
+}
+.topic{
+    font-family: Fjalla One;
+    font-size: 2em;
+}
+.read{
+    color: blue;
+    text-decoration: underline;
+}
+.contact{
+    font-family: Fjalla One ;
+    font-weight: bold;
+    font-size: large;
+    line-height: 1.5em;
+}
